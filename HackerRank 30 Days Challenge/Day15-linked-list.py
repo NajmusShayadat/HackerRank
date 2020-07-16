@@ -35,8 +35,8 @@ class Solution:
 
 mylist = Solution()
 T = int(input())
-head = None
+h = None
 for i in range(T):
-    data = int(input())
-    head = mylist.insert(head, data)
-mylist.display(head)
+    d = int(input())
+    h = mylist.insert(h, d)
+mylist.display(h)
