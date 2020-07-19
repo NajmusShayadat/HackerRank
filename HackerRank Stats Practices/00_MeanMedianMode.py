@@ -14,7 +14,7 @@ def mean_out(n, x):
 # calculate median
 def median_out(n, x):
     x.sort()
-    # if n is even, average of the central twwo element is median
+    # if n is even, average of the central two element is median
     if n % 2 == 0:
         return (x[int(n / 2)] + x[int((n / 2) - 1)]) / 2
     # if n is odd, center element is the median
